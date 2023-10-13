@@ -1,0 +1,22 @@
+{
+  "name": "mobile_test",
+  "version": "1.0.0",
+  "description": "Projeto de teste EBAC mobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run ./wdio.conf.js"
+
+  },
+  "author": "Fábio Claro de Paula",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/appium-service": "^8.18.0",
+    "@wdio/cli": "^8.18.2",
+    "@wdio/local-runner": "^8.18.2",
+    "@wdio/mocha-framework": "^8.18.2",
+    "@wdio/spec-reporter": "^8.18.1",
+    "appium-uiautomator2-driver": "^2.29.11",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
